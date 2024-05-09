@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML TO Excel</title>
+</head>
+
+<body>
+    <h1>Convert HTML to Excel</h1>
+    <textarea id="htmlInput" rows="10" cols="50">Hello, this is a test</textarea><br>
+    <input type="text" id="fileNameInput" placeholder="File Name"><br>
+    <button onclick="convertToExcel()">Convert to Excel</button>
+    <div id="result"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <script src="function.js"></script>
+    <script src="driver.js"></script>
+</body>
+
+</html>

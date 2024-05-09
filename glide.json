@@ -1,0 +1,23 @@
+[
+    {
+        "kind": "column",
+        "name": "HTML to Excel",
+        "description": "Converts HTML to Excel file.",
+        "author": "Your Name",
+        "params": [
+            {
+                "name": "html",
+                "displayName": "HTML",
+                "type": "string"
+            },
+            {
+                "name": "fileName",
+                "displayName": "Filename",
+                "type": "string"
+            }
+        ],
+        "result": {
+            "type": "string"
+        }
+    }
+]
